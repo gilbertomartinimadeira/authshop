@@ -42,7 +42,7 @@
             },
             "microsoft.aspnetcore.authentication.jwtbearer": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

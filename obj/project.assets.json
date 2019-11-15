@@ -4715,7 +4715,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "microsoft.aspnetcore.authentication >= 2.2.0",
-      "microsoft.aspnetcore.authentication.jwtbearer"
+      "microsoft.aspnetcore.authentication.jwtbearer >= 3.0.0"
     ]
   },
   "packageFolders": {
@@ -4759,7 +4759,7 @@
           },
           "microsoft.aspnetcore.authentication.jwtbearer": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[3.0.0, )"
           }
         },
         "imports": [
