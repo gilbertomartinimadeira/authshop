@@ -50,7 +50,7 @@ namespace Shop.Controllers
 
         [HttpGet]
         [Route("manager")]
-        [Authorize]
+        [Authorize(Roles = "manager")]
         public string Manager() => "Gerente";
     }
 }
